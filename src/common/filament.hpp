@@ -28,6 +28,7 @@ enum class filament_t {
     ABS,
     HIPS,
     PP,
+    NYLON,
     FLEX,
     _last = FLEX
 };
