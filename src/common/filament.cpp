@@ -35,6 +35,7 @@ static constexpr const char *pp_str =       "PP       " SPACES "240/100";
 static constexpr const char *nylon_str =    "NYLON    " SPACES "260/ 70";
 static constexpr const char *flex_str =     "FLEX     " SPACES "240/ 50";
 
+
 const Filaments::Array filaments = {
     { "---", BtnResponse::GetText(Response::Cooldown),   0,    0,   0, Response::Cooldown }, // Cooldown sets long text instead short, not a bug
     { BtnResponse::GetText(Response::PLA), pla_str,     215, 170,  60, Response::PLA },
