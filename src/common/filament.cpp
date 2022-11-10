@@ -32,6 +32,7 @@ static constexpr const char *pvb_str =      "PVB      " SPACES "215/ 75";
 static constexpr const char *abs_str =      "ABS      " SPACES "255/100";
 static constexpr const char *hips_str =     "HIPS     " SPACES "220/100";
 static constexpr const char *pp_str =       "PP       " SPACES "240/100";
+static constexpr const char *nylon_str =    "NYLON    " SPACES "260/ 70";
 static constexpr const char *flex_str =     "FLEX     " SPACES "240/ 50";
 
 const Filaments::Array filaments = {
@@ -45,6 +46,8 @@ const Filaments::Array filaments = {
     { BtnResponse::GetText(Response::HIPS), hips_str,   220, 170, 100, Response::HIPS },
     { BtnResponse::GetText(Response::PP), pp_str,       240, 170, 100, Response::PP },
     { BtnResponse::GetText(Response::FLEX), flex_str,   240, 170,  50, Response::FLEX },
+    { BtnResponse::GetText(Response::NYLON), nylon_str, 260, 170,  70, Response::NYLON },
+
 };
 // clang-format on
 
